@@ -9,6 +9,7 @@ qm create $TEMPLATE_ID \
 	--cores 2 \
 	--sockets 1 \
 	--cpu host \
+	--ostype l26 \
 	--net0 virtio,bridge=vmbr0,firewall=1 \
 
 cd /var/lib/vz/template/iso/
